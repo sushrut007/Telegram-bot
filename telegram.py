@@ -10,8 +10,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 print(logger)
 
-token = '6955226189:AAEHrv1gzY017t5Z4pLcn-k9HfIkhShWSVk'
-convertapi.api_secret = 'jRM90nXKrWltH9J3'
+token = 'TELEGRAM_APIKEY'
+convertapi.api_secret = 'CONVERTAPI_APIKEY'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
